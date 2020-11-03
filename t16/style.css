@@ -1,0 +1,63 @@
+body {
+    font-family: Hand, cursive;
+}
+h1 {
+    background: radial-gradient(at top, #50bcf3 , #60ec94);
+    overflow: hidden;
+    color: white;
+    text-align: center;
+}
+nav {
+    display: flex;
+    justify-content: center;
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+nav ul li {
+    background: linear-gradient(to right, #50bcf3 , #60ec94);
+    display: inline-block;
+    margin: 0 40px;
+    min-width: 190px;
+    text-align: center;
+    position: relative;
+    border: 1px solid #ffffff;
+}
+nav a {
+    display: block;
+    padding: 0 20px;
+    color: white;
+    font-size: 20px;
+    line-height: 40px;
+}
+nav a:hover {
+    background: radial-gradient(at top, #50bcf3 , #60ec94);
+    border: 3px solid #ffffff;
+    color: white;
+}
+* {
+    text-decoration: none;
+    list-style: none;
+}
+nav ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+nav ul li:hover > ul {
+    display: inherit;
+}
+nav ul ul li {
+    min-width: 190px;
+    float: none;
+    display: list-item;
+    position: relative;
+    right: 135px;
+}
+nav ul ul ul {
+    position: absolute;
+    top: 0;
+    left: 285px;
+}

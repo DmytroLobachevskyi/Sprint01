@@ -1,0 +1,54 @@
+.heroes-block {
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+.card {
+    width: 270px;
+    height: 140px;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+    margin: 20px;
+}
+.captain {
+    background: linear-gradient(#4568DC, #B06AB3);
+}
+.iron {
+    background: linear-gradient(#e52d27, #b31217);
+}
+.widow {
+    background: linear-gradient(to right,#000000, #61045F);
+}
+.spider {
+    background: linear-gradient(#e52d27, #000000);
+}
+.image {
+    height: 182px;
+    transform: scale(0.87);
+    position: absolute;
+    bottom: -12px;
+}
+.text {
+    padding-top: 10px;
+    padding-right: 10px;
+}
+.alias {
+    color:white;
+    font-size: 12px;
+    text-align: right;
+    font-weight: bold;
+}
+.name {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 9px;
+    text-align: right;
+}
+.image_spider {
+    height: 182px;
+    transform: scale(0.87);
+    position: absolute;
+    top: -12px;
+}

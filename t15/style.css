@@ -1,0 +1,9 @@
+.glove {
+    height: 200px;
+}
+div img {
+    height: 50px;
+}
+.glove:hover ~ div img:nth-child(odd) {
+    opacity: 0%;
+}

@@ -1,0 +1,25 @@
+button {
+    color: green;
+    border-radius: 3px;
+    border: 1px solid grey;
+    position: absolute;
+    padding: 0 10px;
+    height: 2em;
+    text-align: center;
+    cursor: pointer;
+}
+button:hover {
+    color: red;
+}
+.search_row {
+    color: red;
+    width: 50%;
+    border-radius: 3px;
+    border: 2px solid blue;
+    outline: none;
+    padding: 0 10px;
+    height: 2em;
+}
+.search_row:hover {
+    color: green;
+}
